@@ -1,6 +1,6 @@
 # CarND-Behavior-Cloning-Project-P3
 ##Introduction
-Goal of the Behavior Cloning Project is the construction of a (deep) neural network which is able to reproduce human steering behavior on a test track. The network is trained and tested based on image data from a simulator, which can be downloaded at https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f3a4_simulator-windows-64/simulator-windows-64.zip
+Goal of the Behavior Cloning Project is the construction of a (deep) neural network which is able to reproduce human steering behavior on a test track. The network is trained and tested based on image data from a simulator, which can be downloaded from https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f3a4_simulator-windows-64/simulator-windows-64.zip
 
 ##Components
 The project consists of the following components: 
