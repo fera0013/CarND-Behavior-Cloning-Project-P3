@@ -13,7 +13,7 @@ The project consists of the following components:
   
  
 ##Preprocessing
-Each training sample conists of three images that were taken simultanously from the right, the center and the left cameras of the simulator car and the corresponding steering angle as the target value. To tripple the available training data, the left, center and right images of each training sample are treated as seperated training samples. Since the right and left images represent extreme positions, their corresponding steering values are modified by a constant offset to steer the car towards the center of the road. 
+Each training sample conists of three images that were taken simultaneously from the right, the center and the left cameras of the simulator car and the corresponding steering angle as the target value. To tripple the available training data, the left, center and right images of each training sample are treated as seperated training samples. Since the right and left images represent extreme positions, their corresponding steering values are modified by a constant offset to steer the car towards the center of the road. 
 
 ##Network structure
 The model is based on the network architecture described in the paper "end to end learning for self-driving cars" by NVIDIA (https://arxiv.org/abs/1604.07316). 
