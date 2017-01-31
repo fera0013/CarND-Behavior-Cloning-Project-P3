@@ -11,7 +11,6 @@ def gen(image_names, labels, batch_size, new_shape = None):
     while True:     
         X_batch = np.array([mpimg.imread(os.path.join('data',image_path)) 
                    for image_path in image_names[start:end]])
-        X_batch = np.array(X_batch)
         y_batch = np.array(labels[start:end])
         start += batch_size
         end += batch_size
